@@ -14,6 +14,7 @@
     <Company>medienstudio.net</Company>
     <PackageReleaseNotes>V1.0.0
 - inital release</PackageReleaseNotes>
+    <PackageId>ColognePhoneticsSharp</PackageId>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
