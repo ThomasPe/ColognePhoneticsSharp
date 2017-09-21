@@ -11,7 +11,7 @@ It [was initially written](http://codekicker.de/news/csharp-Implementierung-Koel
 ## Using the tool
 
 ```csharp
-using ColognePhoneticSharp;
+using ColognePhoneticsSharp;
 
 // expected result: "65752682";
 var input = "Müller-Lüdenscheidt";
