@@ -3,6 +3,17 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseUrl>https://github.com/ThomasPe/ColognePhoneticsSharp/blob/master/LICENSE</PackageLicenseUrl>
+    <Copyright>© Thomas Pentenrieder | 2017</Copyright>
+    <Description>This library transforms calculates the Cologne Phonetics representation for a single word.</Description>
+    <PackageProjectUrl>https://github.com/ThomasPe/ColognePhoneticsSharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ThomasPe/ColognePhoneticsSharp</RepositoryUrl>
+    <PackageTags>cologne phonetics, kölner phonetik, phonetics,</PackageTags>
+    <RepositoryType>GitHub</RepositoryType>
+    <Authors>Thomas Pentenrieder</Authors>
+    <Company>medienstudio.net</Company>
+    <PackageReleaseNotes>V1.0.0
+- inital release</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
