@@ -57,10 +57,16 @@ namespace ColognePhoneticsSharp.Tests
         [TestMethod]
         public void GetEncodingOneChar()
         {
+            // Test single character 'C' - should not throw IndexOutOfRangeException
             var input2 = "C";
             var expected2 = "8";
             var output2 = ColognePhonetics.GetPhonetics(input2);
             Assert.AreEqual(expected2, output2);
+            
+            // Test a few other single characters to ensure no regressions
+            Assert.AreEqual("4", ColognePhonetics.GetPhonetics("K"));
+            Assert.AreEqual("8", ColognePhonetics.GetPhonetics("S"));
+            Assert.AreEqual("0", ColognePhonetics.GetPhonetics("A"));
         }
     }
 }
