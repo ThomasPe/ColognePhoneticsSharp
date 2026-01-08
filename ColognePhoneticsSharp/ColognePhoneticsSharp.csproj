@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageLicenseUrl>https://github.com/ThomasPe/ColognePhoneticsSharp/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Copyright>© Thomas Pentenrieder | 2026</Copyright>
     <Description>This library calculates the Cologne Phonetics representation for a single word.</Description>
     <PackageProjectUrl>https://github.com/ThomasPe/ColognePhoneticsSharp</PackageProjectUrl>
