@@ -1,7 +1,7 @@
 # ColognePhoneticsSharp
 This is an implementation of the Cologne phonetics algorithm (Kölner Phonetik) for .NET
 
-It was initially written by Klaus Bock and he kindly gave permission to create a nuget package for this.
+It was initially written by Klaus Bock (originally published at codekicker.de) and he kindly gave permission to create a nuget package for this.
 
 # Getting started
 

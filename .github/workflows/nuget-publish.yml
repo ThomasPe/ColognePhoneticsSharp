@@ -2,11 +2,6 @@ name: Publish to NuGet
 
 on:
   workflow_dispatch:
-    inputs:
-      version:
-        description: 'Package version to publish (e.g., 1.1.0)'
-        required: false
-        type: string
 
 jobs:
   publish:
