@@ -5,7 +5,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseUrl>https://github.com/ThomasPe/ColognePhoneticsSharp/blob/master/LICENSE</PackageLicenseUrl>
     <Copyright>© Thomas Pentenrieder | 2026</Copyright>
-    <Description>This library transforms calculates the Cologne Phonetics representation for a single word.</Description>
+    <Description>This library calculates the Cologne Phonetics representation for a single word.</Description>
     <PackageProjectUrl>https://github.com/ThomasPe/ColognePhoneticsSharp</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ThomasPe/ColognePhoneticsSharp</RepositoryUrl>
     <PackageTags>cologne phonetics, kölner phonetik, phonetics,</PackageTags>
