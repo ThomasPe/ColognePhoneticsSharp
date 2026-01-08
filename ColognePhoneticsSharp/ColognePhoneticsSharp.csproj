@@ -1,10 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseUrl>https://github.com/ThomasPe/ColognePhoneticsSharp/blob/master/LICENSE</PackageLicenseUrl>
-    <Copyright>© Thomas Pentenrieder | 2017</Copyright>
+    <Copyright>© Thomas Pentenrieder | 2026</Copyright>
     <Description>This library transforms calculates the Cologne Phonetics representation for a single word.</Description>
     <PackageProjectUrl>https://github.com/ThomasPe/ColognePhoneticsSharp</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ThomasPe/ColognePhoneticsSharp</RepositoryUrl>
@@ -12,13 +12,16 @@
     <RepositoryType>GitHub</RepositoryType>
     <Authors>Thomas Pentenrieder</Authors>
     <Company>medienstudio.net</Company>
-    <PackageReleaseNotes>V1.0.0
-- inital release</PackageReleaseNotes>
+    <Version>1.1.0</Version>
+    <PackageReleaseNotes>V1.1.0
+- Updated to .NET Standard 2.0
+- Updated copyright year
+- Maintenance updates</PackageReleaseNotes>
     <PackageId>ColognePhoneticsSharp</PackageId>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\netstandard1.0\ColognePhoneticsSharp.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\netstandard2.0\ColognePhoneticsSharp.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>
