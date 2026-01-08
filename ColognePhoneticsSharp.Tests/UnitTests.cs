@@ -55,7 +55,7 @@ namespace ColognePhoneticsSharp.Tests
         }
 
         [TestMethod]
-        public void GetEncodingOneChar()
+        public void GetPhoneticsOneChar()
         {
             // Test single character 'C' - should not throw IndexOutOfRangeException
             var input2 = "C";
