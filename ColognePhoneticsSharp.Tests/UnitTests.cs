@@ -8,7 +8,7 @@ namespace ColognePhoneticsSharp.Tests
         [TestMethod]
         public void GetPhoneticsTest()
         {
-            var input = "Mï¿½ller-Lï¿½denscheidt";
+            var input = "Müller-Lüdenscheidt";
             var expected = "65752682";
             var output = ColognePhonetics.GetPhonetics(input);
             Assert.AreEqual(expected, output);
@@ -27,7 +27,7 @@ namespace ColognePhoneticsSharp.Tests
         [TestMethod]
         public void GetEncodingTest()
         {
-            var input = "Mï¿½ller-Lï¿½denscheidt";
+            var input = "Müller-Lüdenscheidt";
             var expected = "60550750206880022";
 
             var output = ColognePhonetics.GetEncoding(input);
