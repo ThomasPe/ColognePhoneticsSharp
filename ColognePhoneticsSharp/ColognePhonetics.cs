@@ -224,6 +224,13 @@ namespace ColognePhoneticsSharp
                     // if first letter
                     if (i == 0)
                     {
+                        // last letter in array?
+                        if (i + 1 >= content.Length)
+                        {
+                            sb.Append("8");
+                            continue;
+                        }
+
                         char next = content[i + 1];
 
                         // if next letter is in same group
