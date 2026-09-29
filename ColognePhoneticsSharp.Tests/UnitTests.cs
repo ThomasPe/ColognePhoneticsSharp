@@ -68,5 +68,13 @@ namespace ColognePhoneticsSharp.Tests
             Assert.AreEqual("8", ColognePhonetics.GetPhonetics("S"));
             Assert.AreEqual("0", ColognePhonetics.GetPhonetics("A"));
         }
+
+        [TestMethod]
+        public void GetPhoneticsTrailingC()
+        {
+            Assert.AreEqual("08", ColognePhonetics.GetPhonetics("AC"));
+            Assert.AreEqual("678", ColognePhonetics.GetPhonetics("Marc"));
+            Assert.AreEqual("67", ColognePhonetics.GetPhonetics("Mar"));
+        }
     }
 }

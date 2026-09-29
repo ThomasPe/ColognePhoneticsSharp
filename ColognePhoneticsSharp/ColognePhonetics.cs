@@ -248,6 +248,7 @@ namespace ColognePhoneticsSharp
                         // last letter?
                         if (i + 1 >= content.Length)
                         {
+                            sb.Append("8");
                             continue;
                         }
 
