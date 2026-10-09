@@ -12,10 +12,8 @@
     <RepositoryType>GitHub</RepositoryType>
     <Authors>Thomas Pentenrieder</Authors>
     <Company>medienstudio.net</Company>
-    <Version>1.1.0</Version>
-    <PackageReleaseNotes>V1.1.0
-- Updated to .NET Standard 2.0
-- Updated copyright year
+    <Version>1.2.0</Version>
+    <PackageReleaseNotes>V1.2.0
 - Maintenance updates</PackageReleaseNotes>
     <PackageId>ColognePhoneticsSharp</PackageId>
   </PropertyGroup>
