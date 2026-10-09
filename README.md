@@ -17,3 +17,9 @@ using ColognePhoneticsSharp;
 var input = "Müller-Lüdenscheidt";
 var output = ColognePhonetics.GetPhonetics(input);
 ```
+
+## Releasing
+
+To publish a release, update the `<Version>` and `<PackageReleaseNotes>` values in `ColognePhoneticsSharp/ColognePhoneticsSharp.csproj` and commit the changes. Then create and push a matching version tag (for example, `v1.2.0` for package version `1.2.0`).
+
+Pushing a `v*` tag runs the **Release to NuGet** GitHub Actions workflow. It verifies that the tag matches the project version, builds and tests the package, publishes it to NuGet, and creates a GitHub Release with automatically generated notes. Configure the repository's `NUGET_API_KEY` Actions secret with a NuGet API key before the first release. GitHub Releases provide the release history; no separate changelog is maintained.
